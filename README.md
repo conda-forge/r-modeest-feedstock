@@ -14,14 +14,16 @@ Summary: This package provides estimators of the mode of univariate unimodal dat
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-modeest-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-modeest-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-modeest-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-modeest-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-modeest-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-modeest-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-modeest-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-modeest-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-modeest-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-modeest-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-modeest-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-modeest-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-modeest/badges/version.svg)](https://anaconda.org/conda-forge/r-modeest)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-modeest/badges/downloads.svg)](https://anaconda.org/conda-forge/r-modeest)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--modeest-green.svg)](https://anaconda.org/conda-forge/r-modeest) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-modeest.svg)](https://anaconda.org/conda-forge/r-modeest) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-modeest.svg)](https://anaconda.org/conda-forge/r-modeest) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-modeest.svg)](https://anaconda.org/conda-forge/r-modeest) |
 
 Installing r-modeest
 ====================
