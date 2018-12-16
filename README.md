@@ -1,22 +1,23 @@
 About r-modeest
 ===============
 
-Home: https://CRAN.R-project.org/package=modeest
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
+Home: https://github.com/paulponcet/modeest
 
 Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: This package provides estimators of the mode of univariate unimodal data or univariate unimodal distributions
+Summary: Provides estimators of the mode of univariate unimodal data or univariate unimodal distributions
 
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-modeest-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-modeest-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-modeest-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-modeest-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-modeest-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-modeest-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-modeest-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-modeest-feedstock)
 
 Current release info
 ====================
@@ -104,3 +105,15 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@ArneKr](https://github.com/ArneKr/)
+* [@FrodePedersen](https://github.com/FrodePedersen/)
+* [@MathiasHaudgaard](https://github.com/MathiasHaudgaard/)
+* [@bgruening](https://github.com/bgruening/)
+* [@daler](https://github.com/daler/)
+* [@jdblischak](https://github.com/jdblischak/)
+* [@johanneskoester](https://github.com/johanneskoester/)
+
