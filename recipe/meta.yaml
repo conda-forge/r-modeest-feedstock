@@ -1,4 +1,4 @@
-{% set version = '2.1' %}
+{% set version = "2.3.3" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,11 +13,11 @@ source:
     - https://cran.r-project.org/src/contrib/modeest_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/modeest/modeest_{{ version }}.tar.gz
 
-  sha256: d7ae2789da79b46a08bd2c67ca612a208b691e7a60322a5a63beeb37a13f9e50
+  sha256: 36cab5a2a7b521bd58a71557a74be8d0f3a0ea6c86a18f863aa95e0841fc33f9
 
 build:
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   skip: true  # [win32]
 
   rpaths:
