@@ -18,24 +18,24 @@ source:
 build:
   merge_build_host: True  # [win]
   number: 0
-  skip: true  # [win32]
-
+  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
-  build:
-    - posix                # [win]
-    - {{ compiler('c') }}        # [unix]
-    - {{ compiler('m2w64_c') }}  # [win]
-    - {{ compiler('cxx') }}        # [unix]
-    - {{ compiler('m2w64_cxx') }}  # [win]
   host:
     - r-base
-
+    - r-fbasics
+    - r-stable
+    - r-stabledist
+    - r-statip >=0.2.3
   run:
     - r-base
+    - r-fbasics
+    - r-stable
+    - r-stabledist
+    - r-statip >=0.2.3
 
 test:
   commands:
@@ -43,19 +43,12 @@ test:
     - "\"%R%\" -e \"library('modeest')\""  # [win]
 
 about:
-  home: https://CRAN.R-project.org/package=modeest
-  license: GPL (>= 2)
-  summary: This package provides estimators of the mode of univariate unimodal data or univariate
-    unimodal distributions
-  license_family: GPL3
+  home: https://github.com/paulponcet/modeest
+  license: GPL-3
+  summary: Provides estimators of the mode of univariate data or univariate distributions.
+  license_family: GPL-3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+
 extra:
    recipe-maintainers:
     - conda-forge/r
-    - MathiasHaudgaard
-    - FrodePedersen
-    - ArneKr
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
