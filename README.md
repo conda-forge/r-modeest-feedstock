@@ -1,13 +1,13 @@
 About r-modeest
 ===============
 
-Home: https://CRAN.R-project.org/package=modeest
+Home: https://github.com/paulponcet/modeest
 
-Package license: GPL (>= 2)
+Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: This package provides estimators of the mode of univariate unimodal data or univariate unimodal distributions
+Summary: Provides estimators of the mode of univariate data or univariate distributions.
 
 
 
@@ -15,71 +15,11 @@ Current build status
 ====================
 
 
-<table>
-    
-  <tr>
-    <td>Azure</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <details>
-        <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master">
-          </a>
-        </summary>
-        <table>
-          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
-          <tbody><tr>
-              <td>linux_r_base3.5.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master&jobName=linux&configuration=linux_r_base3.5.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_r_base3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master&jobName=linux&configuration=linux_r_base3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_r_base3.5.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master&jobName=osx&configuration=osx_r_base3.5.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_r_base3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master&jobName=osx&configuration=osx_r_base3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_r_base3.5.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master&jobName=win&configuration=win_r_base3.5.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_r_base3.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master&jobName=win&configuration=win_r_base3.6" alt="variant">
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1370&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-modeest-feedstock?branchName=master">
+      </a>
     </td>
   </tr>
 </table>
@@ -176,12 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@ArneKr](https://github.com/ArneKr/)
-* [@FrodePedersen](https://github.com/FrodePedersen/)
-* [@MathiasHaudgaard](https://github.com/MathiasHaudgaard/)
-* [@bgruening](https://github.com/bgruening/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
