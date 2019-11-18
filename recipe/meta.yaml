@@ -1,4 +1,4 @@
-{% set version = '2.1' %}
+{% set version = "2.4.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,29 +13,29 @@ source:
     - https://cran.r-project.org/src/contrib/modeest_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/modeest/modeest_{{ version }}.tar.gz
 
-  sha256: d7ae2789da79b46a08bd2c67ca612a208b691e7a60322a5a63beeb37a13f9e50
+  sha256: 1a949409bf64679d32400d20aa3d53e65a9a20f5bd1a40993b95f81100e0ed20
 
 build:
   merge_build_host: True  # [win]
-  number: 1002
-  skip: true  # [win32]
-
+  number: 0
+  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
-  build:
-    - posix                # [win]
-    - {{ compiler('c') }}        # [unix]
-    - {{ compiler('m2w64_c') }}  # [win]
-    - {{ compiler('cxx') }}        # [unix]
-    - {{ compiler('m2w64_cxx') }}  # [win]
   host:
     - r-base
-
+    - r-fbasics
+    - r-stable
+    - r-stabledist
+    - r-statip >=0.2.3
   run:
     - r-base
+    - r-fbasics
+    - r-stable
+    - r-stabledist
+    - r-statip >=0.2.3
 
 test:
   commands:
@@ -43,19 +43,12 @@ test:
     - "\"%R%\" -e \"library('modeest')\""  # [win]
 
 about:
-  home: https://CRAN.R-project.org/package=modeest
-  license: GPL (>= 2)
-  summary: This package provides estimators of the mode of univariate unimodal data or univariate
-    unimodal distributions
-  license_family: GPL3
+  home: https://github.com/paulponcet/modeest
+  license: GPL-3
+  summary: Provides estimators of the mode of univariate data or univariate distributions.
+  license_family: GPL-3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+
 extra:
    recipe-maintainers:
     - conda-forge/r
-    - MathiasHaudgaard
-    - FrodePedersen
-    - ArneKr
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
