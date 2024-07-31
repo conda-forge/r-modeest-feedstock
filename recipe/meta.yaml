@@ -1,7 +1,6 @@
 {% set version = "2.4.0" %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-modeest
@@ -16,8 +15,7 @@ source:
   sha256: 1a949409bf64679d32400d20aa3d53e65a9a20f5bd1a40993b95f81100e0ed20
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
